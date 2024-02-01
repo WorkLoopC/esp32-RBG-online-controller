@@ -1,13 +1,13 @@
+//Working on finishing this code
 #include <Arduino.h>
 #include <WiFiClientSecure.h>
-
 
 #define red 13
 #define green 14
 #define blue 12
 
-const char* ssid = "iPhone (3)";
-const char* password = "esp323232";
+const char* ssid = "Wifi_ssid";
+const char* password = "wifi_password";
 
 WiFiServer server(80);
 int pos1 = 0;
